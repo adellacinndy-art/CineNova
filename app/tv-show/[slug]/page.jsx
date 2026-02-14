@@ -40,12 +40,12 @@ export async function generateMetadata({ params }) {
 
   if (genreSlugMap.has(processedSlug)) {
     const genre = genreSlugMap.get(processedSlug);
-    return { title: `Soap2day - ${genre.name} TV Series` };
+    return { title: `CineNova - ${genre.name} TV Series` };
   }
 
   if (CATEGORIES.includes(slug)) {
     const title = slug.replace(/_/g, ' ').toUpperCase();
-    return { title: `Soap2day - ${title} TV Series` };
+    return { title: `CineNova - ${title} TV Series` };
   }
 
   // Logika untuk mengambil data TV show untuk metadata detail
@@ -84,13 +84,13 @@ export async function generateMetadata({ params }) {
   const socialImageAlt = `${tvShowData.name} poster`;
 
   return {
-    title: `Soap2day - ${tvShowData.name}`,
+    title: `CineNova - ${tvShowData.name}`,
     description: tvShowData.overview,
     openGraph: {
       title: tvShowData.name,
       description: tvShowData.overview,
-      url: `https://soap2day-hd.vercel.app/tv-show/${slug}`,
-      siteName: 'Soap2day',
+      url: `https://cinenovamovie.netlify.app/tv-show/${slug}`,
+      siteName: 'CineNova',
       images: [{ url: socialImage, width: 1200, height: 630, alt: socialImageAlt }],
       locale: 'en_US',
       type: 'website',

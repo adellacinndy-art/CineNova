@@ -39,8 +39,8 @@ export async function generateMetadata({ params }) {
   if (CATEGORIES.includes(slug)) {
     const title = slug.replace(/_/g, ' ').toUpperCase();
     return {
-      title: `Soap2day - ${title} Movies`,
-      description: `Explore the ${title} movies collection on Soap2day.`,
+      title: `CineNova - ${title} Movies`,
+      description: `Explore the ${title} movies collection on CineNova.`,
     };
   }
 
@@ -51,8 +51,8 @@ export async function generateMetadata({ params }) {
     const genres = await getMovieGenres();
     const genreName = genres.find(g => g.id == genreId)?.name || 'Unknown';
     return {
-      title: `Soap2day - ${genreName} Movies`,
-      description: `Discover ${genreName} movies on Soap2day.`,
+      title: `CineNova - ${genreName} Movies`,
+      description: `Discover ${genreName} movies on CineNova.`,
     };
   }
 
@@ -83,7 +83,7 @@ export async function generateMetadata({ params }) {
   // Jika data tidak ditemukan, kembalikan metadata dasar
   if (!movieData) {
     return {
-      title: 'Soap2day',
+      title: 'CineNova',
       description: 'Find your favorite movies to stream.',
     };
   }
@@ -99,13 +99,13 @@ export async function generateMetadata({ params }) {
   const socialImageAlt = `${movieData.title} poster`;
 
   return {
-    title: `Soap2day - ${movieData.title}`,
+    title: `CineNova - ${movieData.title}`,
     description: movieData.overview || `Detailed information for movie ${movieData.title}`,
     openGraph: {
       title: movieData.title,
       description: movieData.overview || `Detailed information for movie ${movieData.title}`,
-      url: `https://soap2day-hd.vercel.app/movie/${slug}`,
-      siteName: 'Soap2day',
+      url: `https://cinenovamovie.netlify.app/movie/${slug}`,
+      siteName: 'CineNova',
       images: [
         {
           url: socialImage,

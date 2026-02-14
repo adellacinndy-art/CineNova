@@ -14,17 +14,17 @@ export async function generateMetadata({ params }) {
   const genre = genres.find(g => g.name.toLowerCase().replace(/\s/g, '-') === genreName);
   const title = genre?.name || 'Unknown';
 
-  const pageUrl = `https://soap2day-hd.vercel.app/movie/genre/${genreName}`;
-  const imageUrl = 'https://live.staticflickr.com/65535/54824307228_b68eb0d7d3_b.jpg';
+  const pageUrl = `https://cinenovamovie.netlify.app/movie/genre/${genreName}`;
+  const imageUrl = 'https://live.staticflickr.com/65535/55093668042_fbac069c0b_b.jpg';
 
   return {
-    title: `Soap2day - ${title} Movies`,
-    description: `Find and watch the best ${title} movies for free on Soap2day.`,
+    title: `CineNova - ${title} Movies`,
+    description: `Find and watch the best ${title} movies for free on CineNova.`,
     openGraph: {
-      title: `Soap2day - ${title} Movies`,
-      description: `Find and watch the best ${title} movies for free on Soap2day.`,
+      title: `CineNova - ${title} Movies`,
+      description: `Find and watch the best ${title} movies for free on CineNova.`,
       url: pageUrl,
-      siteName: 'Soap2day',
+      siteName: 'CineNova',
       images: [
         {
           url: imageUrl,
@@ -40,8 +40,8 @@ export async function generateMetadata({ params }) {
       card: 'summary_large_image',
       site: '@WatchStream123',
       creator: '@WatchStream123',
-      title: `Soap2day - ${title} Movies`,
-      description: `Find and watch the best ${title} movies for free on Soap2day.`,
+      title: `CineNova - ${title} Movies`,
+      description: `Find and watch the best ${title} movies for free on CineNova.`,
       images: [imageUrl],
     },
     other: {
