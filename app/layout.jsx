@@ -6,20 +6,20 @@ import AdsterraLayoutWrapper from '../components/layout/AdsterraLayoutWrapper';
 import AdBanner from '../components/ads/AdBanner'; 
 
 export const metadata = {
-  title: 'Watch Movies Online Free | Stream TV Series HD - Soap2Day',
-  description: 'Find where to watch movies & TV series online for free or on Netflix, Disney+, Prime Video. Soap2Day tracks 10,000+ movies, 5,000+ shows, box office results, actor info, and provides HD streaming guides across all genres (action, horror, romance, anime, drakor).',
+  title: 'Watch Movies Online Free | Stream TV Series HD - CineNova',
+  description: 'Find where to watch movies & TV series online for free or on Netflix, Disney+, Prime Video. CineNova tracks 10,000+ movies, 5,000+ shows, box office results, actor info, and provides HD streaming guides across all genres (action, horror, romance, anime, drakor).',
   keywords: 'watch movies, stream TV series, movie database, where to watch, streaming guide, Netflix, Disney+, Prime Video, free movies online, HD streaming, actor profiles, box office results',
   openGraph: {
-    title: 'Watch Movies Online Free | Stream TV Series HD - Soap2Day',
+    title: 'Watch Movies Online Free | Stream TV Series HD - CineNova',
     description: 'Find where to watch movies & TV series online for free or on Netflix, Disney+, Prime Video. Get streaming guides, actor profiles, and genre recommendations.',
     url: 'https://cinenovamovie.netlify.app',
-    siteName: 'Soap2Day',
+    siteName: 'CineNova',
     images: [
       {
         url: 'https://live.staticflickr.com/65535/55093668042_fbac069c0b_b.jpg',
         width: 1200,
         height: 630,
-        alt: 'Soap2Day - Watch Movies Online Free and Stream TV Series',
+        alt: 'CineNova - Watch Movies Online Free and Stream TV Series',
       },
     ],
     locale: 'en_US',
@@ -29,7 +29,7 @@ export const metadata = {
     card: 'summary_large_image',
     site: '@WatchStream123',
     creator: '@WatchStream123',
-    title: 'Watch Movies Online Free | Stream TV Series HD - Soap2Day',
+    title: 'Watch Movies Online Free | Stream TV Series HD - CineNova',
     description: 'Find where to watch movies & TV series online for free or on Netflix, Disney+, Prime Video. Streaming guides and recommendations.',
     images: ['https://live.staticflickr.com/65535/55093668042_fbac069c0b_b.jpg'],
   },
@@ -58,7 +58,7 @@ export default async function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              "name": "Soap2Day",
+              "name": "CineNova",
               "url": "https://cinenovamovie.netlify.app",
               "potentialAction": {
                 "@type": "SearchAction",
@@ -76,13 +76,13 @@ export default async function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "name": "Soap2Day",
+              "name": "CineNova",
               "url": "https://cinenovamovie.netlify.app",
               "logo": "https://live.staticflickr.com/65535/55093668042_fbac069c0b_b.jpg",
               "description": "Streaming guide and movie database",
               "sameAs": [
                 "https://twitter.com/WatchStream123",
-                "https://facebook.com/Soap2Day"
+                "https://facebook.com/CineNova"
               ]
             })
           }}

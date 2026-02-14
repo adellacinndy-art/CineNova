@@ -160,7 +160,7 @@ export default async function HomePage() {
         "@type": "WebSite",
         "@id": "https://cinenovamovie.netlify.app/#website",
         "url": "https://cinenovamovie.netlify.app/",
-        "name": "Soap2day",
+        "name": "CineNova",
         "description": "Discover trending movies and TV series to stream today across Netflix, Disney+, Prime Video, Hulu, HBO Max and other streaming platforms",
         "potentialAction": [{
           "@type": "SearchAction",
@@ -173,7 +173,7 @@ export default async function HomePage() {
         "@type": "WebPage",
         "@id": "https://cinenovamovie.netlify.app/#webpage",
         "url": "https://cinenovamovie.netlify.app/",
-        "name": "Soap2day | Trending Movies & TV Shows to Stream Today",
+        "name": "CineNova | Trending Movies & TV Shows to Stream Today",
         "description": "Watch trending movies and TV series for free. Discover what's popular today across Netflix, Disney+, Prime Video. Daily updated trending content.",
         "isPartOf": { "@id": "https://cinenovamovie.netlify.app/#website" },
         "about": "Movie and TV show streaming guide",
@@ -204,7 +204,7 @@ export default async function HomePage() {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "How often is trending content updated on Soap2day?",
+            "name": "How often is trending content updated on CineNova?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "We update trending movies and TV shows daily with the latest data from all major streaming platforms including Netflix, Disney+, Prime Video, Hulu, and HBO Max."
@@ -212,15 +212,15 @@ export default async function HomePage() {
           },
           {
             "@type": "Question",
-            "name": "Can I find where to stream movies for free on Soap2day?",
+            "name": "Can I find where to stream movies for free on CineNova?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes! Soap2day provides information on both free streaming options (ad-supported platforms) and premium subscription services, helping you find the most cost-effective way to watch your favorite content."
+              "text": "Yes! CineNova provides information on both free streaming options (ad-supported platforms) and premium subscription services, helping you find the most cost-effective way to watch your favorite content."
             }
           },
           {
             "@type": "Question",
-            "name": "Does Soap2day cover international movies and TV shows?",
+            "name": "Does CineNova cover international movies and TV shows?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Absolutely. We track trending content from Hollywood blockbusters to international cinema, including anime, Korean dramas, European films, and content from around the world."
@@ -228,7 +228,7 @@ export default async function HomePage() {
           },
           {
             "@type": "Question",
-            "name": "How does Soap2day determine what's trending?",
+            "name": "How does CineNova determine what's trending?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Our algorithm analyzes daily popularity spikes, social media buzz, streaming platform data, and viewer engagement metrics to determine what people are watching right now across all major services."
@@ -255,7 +255,7 @@ export default async function HomePage() {
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container mx-auto px-4 text-center relative z-10">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3 text-white" itemProp="headline">
-            Soap2Day | Trending Movies & TV Shows to Stream Today
+            CineNova | Trending Movies & TV Shows to Stream Today
           </h1>
           <p className="text-base md:text-lg text-gray-300 max-w-2xl mx-auto" itemProp="description">
             Discover what's trending right now across all streaming platforms. Daily updated with the hottest movies and TV series available to watch online.
@@ -343,26 +343,26 @@ export default async function HomePage() {
         {/* SEO-Optimized About Section dengan LSI Keywords tambahan */}
         <section className="mb-16 bg-slate-800/50 p-6 md:p-8 rounded-xl">
           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center text-orange-300">
-            Soap2day: Your Ultimate Streaming Discovery Platform
+            CineNova: Your Ultimate Streaming Discovery Platform
           </h2>
           
           <div className="space-y-6 text-gray-300">
-            <h3 className="text-xl md:text-2xl font-semibold text-blue-300 mb-4">What is Soap2day?</h3>
+            <h3 className="text-xl md:text-2xl font-semibold text-blue-300 mb-4">What is CineNova?</h3>
             
             <p>
-              Soap2day is America's premier movie and TV show discovery platform that answers the most common search queries like <strong>"what's trending on Netflix today"</strong>, <strong>"best movies to watch right now"</strong>, <strong>"top TV shows this week"</strong>, and <strong>"where to stream new releases"</strong>. We provide real-time trending data across all major streaming platforms including Netflix, Disney+, Amazon Prime Video, Hulu, HBO Max, Apple TV+, and free streaming services.
+              CineNova is America's premier movie and TV show discovery platform that answers the most common search queries like <strong>"what's trending on Netflix today"</strong>, <strong>"best movies to watch right now"</strong>, <strong>"top TV shows this week"</strong>, and <strong>"where to stream new releases"</strong>. We provide real-time trending data across all major streaming platforms including Netflix, Disney+, Amazon Prime Video, Hulu, HBO Max, Apple TV+, and free streaming services.
             </p>
 
             <h3 className="text-xl md:text-2xl font-semibold text-blue-300 mb-4">Daily Trending Updates</h3>
             
             <p>
-              Unlike traditional movie databases, Soap2day focuses on what's trending right now. Our algorithm tracks daily <strong>popularity spikes</strong>, <strong>social media buzz</strong>, and <strong>streaming platform data</strong> to show you exactly what people are watching today. Whether you're searching for <strong>"trending movies 2024"</strong>, <strong>"popular TV series this month"</strong>, or <strong>"what to watch tonight"</strong>, we deliver up-to-the-minute recommendations based on real-world viewing patterns.
+              Unlike traditional movie databases, CineNova focuses on what's trending right now. Our algorithm tracks daily <strong>popularity spikes</strong>, <strong>social media buzz</strong>, and <strong>streaming platform data</strong> to show you exactly what people are watching today. Whether you're searching for <strong>"trending movies 2024"</strong>, <strong>"popular TV series this month"</strong>, or <strong>"what to watch tonight"</strong>, we deliver up-to-the-minute recommendations based on real-world viewing patterns.
             </p>
 
             <h3 className="text-xl md:text-2xl font-semibold text-blue-300 mb-4">Streaming Availability & Platform Integration</h3>
             
             <p>
-              Every trending title on Soap2day includes detailed <strong>streaming information</strong> showing exactly where you can watch it. We track availability across Netflix, Disney+, Prime Video, Hulu, HBO Max, Peacock, Paramount+, and free ad-supported platforms. Our platform answers queries like <strong>"where to watch [movie title] free"</strong>, <strong>"is [TV show] on Netflix"</strong>, and <strong>"streaming services with [movie]"</strong>. We also monitor regional availability and subscription requirements.
+              Every trending title on CineNova includes detailed <strong>streaming information</strong> showing exactly where you can watch it. We track availability across Netflix, Disney+, Prime Video, Hulu, HBO Max, Peacock, Paramount+, and free ad-supported platforms. Our platform answers queries like <strong>"where to watch [movie title] free"</strong>, <strong>"is [TV show] on Netflix"</strong>, and <strong>"streaming services with [movie]"</strong>. We also monitor regional availability and subscription requirements.
             </p>
 
             {/* Popular Genres Section in About */}
@@ -388,7 +388,7 @@ export default async function HomePage() {
             <h3 className="text-xl md:text-2xl font-semibold text-blue-300 mb-4">Comprehensive Content Discovery</h3>
             
             <p>
-              Soap2day helps you discover content across all genres including <strong>Action</strong>, <strong>Adventure</strong>, <strong>Sci-Fi</strong>, <strong>Anime</strong>, <strong>Crime</strong>, <strong>Horror</strong>, <strong>Comedy</strong>, <strong>Romance</strong>, <strong>Thriller</strong>, <strong>Mystery</strong>, <strong>War</strong>, <strong>Fantasy</strong>, and more. Each trending item includes ratings, reviews, cast information, and similar recommendations. We answer search queries like <strong>"movies like [favorite film]"</strong>, <strong>"best [genre] shows on [platform]"</strong>, and <strong>"top rated [genre] movies 2024"</strong>.
+              CineNova helps you discover content across all genres including <strong>Action</strong>, <strong>Adventure</strong>, <strong>Sci-Fi</strong>, <strong>Anime</strong>, <strong>Crime</strong>, <strong>Horror</strong>, <strong>Comedy</strong>, <strong>Romance</strong>, <strong>Thriller</strong>, <strong>Mystery</strong>, <strong>War</strong>, <strong>Fantasy</strong>, and more. Each trending item includes ratings, reviews, cast information, and similar recommendations. We answer search queries like <strong>"movies like [favorite film]"</strong>, <strong>"best [genre] shows on [platform]"</strong>, and <strong>"top rated [genre] movies 2024"</strong>.
             </p>
 
             {/* FAQ Section dengan Schema Markup */}
@@ -399,7 +399,7 @@ export default async function HomePage() {
               
               <div className="space-y-4">
                 <div className="faq-item" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-                  <h4 className="font-semibold text-blue-300 mb-2" itemProp="name">How often is trending content updated on Soap2day?</h4>
+                  <h4 className="font-semibold text-blue-300 mb-2" itemProp="name">How often is trending content updated on CineNova?</h4>
                   <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
                     <p className="text-gray-300" itemProp="text">
                       We update trending movies and TV shows daily with the latest data from all major streaming platforms including Netflix, Disney+, Prime Video, Hulu, and HBO Max.
@@ -408,16 +408,16 @@ export default async function HomePage() {
                 </div>
                 
                 <div className="faq-item" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-                  <h4 className="font-semibold text-blue-300 mb-2" itemProp="name">Can I find where to stream movies for free on Soap2day?</h4>
+                  <h4 className="font-semibold text-blue-300 mb-2" itemProp="name">Can I find where to stream movies for free on CineNova?</h4>
                   <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
                     <p className="text-gray-300" itemProp="text">
-                      Yes! Soap2day provides information on both free streaming options (ad-supported platforms) and premium subscription services, helping you find the most cost-effective way to watch your favorite content.
+                      Yes! CineNova provides information on both free streaming options (ad-supported platforms) and premium subscription services, helping you find the most cost-effective way to watch your favorite content.
                     </p>
                   </div>
                 </div>
                 
                 <div className="faq-item" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-                  <h4 className="font-semibold text-blue-300 mb-2" itemProp="name">Does Soap2day cover international movies and TV shows?</h4>
+                  <h4 className="font-semibold text-blue-300 mb-2" itemProp="name">Does CineNova cover international movies and TV shows?</h4>
                   <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
                     <p className="text-gray-300" itemProp="text">
                       Absolutely. We track trending content from Hollywood blockbusters to international cinema, including anime, Korean dramas, European films, and content from around the world.
@@ -426,7 +426,7 @@ export default async function HomePage() {
                 </div>
                 
                 <div className="faq-item" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-                  <h4 className="font-semibold text-blue-300 mb-2" itemProp="name">How does Soap2day determine what's trending?</h4>
+                  <h4 className="font-semibold text-blue-300 mb-2" itemProp="name">How does CineNova determine what's trending?</h4>
                   <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
                     <p className="text-gray-300" itemProp="text">
                       Our algorithm analyzes daily popularity spikes, social media buzz, streaming platform data, and viewer engagement metrics to determine what people are watching right now across all major services.
@@ -439,25 +439,25 @@ export default async function HomePage() {
             <h3 className="text-xl md:text-2xl font-semibold text-blue-300 mb-4">Quality & Viewing Experience</h3>
             
             <p>
-              We prioritize viewing quality by highlighting availability in <strong>HD</strong>, <strong>4K</strong>, <strong>HDR</strong>, and <strong>Dolby</strong> formats. Each listing includes content ratings, episode guides for TV series, parental guidance, and accessibility features. Soap2day helps users make informed decisions about what to watch based on quality preferences and viewing restrictions.
+              We prioritize viewing quality by highlighting availability in <strong>HD</strong>, <strong>4K</strong>, <strong>HDR</strong>, and <strong>Dolby</strong> formats. Each listing includes content ratings, episode guides for TV series, parental guidance, and accessibility features. CineNova helps users make informed decisions about what to watch based on quality preferences and viewing restrictions.
             </p>
 
-            <h3 className="text-xl md:text-2xl font-semibold text-blue-300 mb-4">Why Choose Soap2day Over Other Platforms?</h3>
+            <h3 className="text-xl md:text-2xl font-semibold text-blue-300 mb-4">Why Choose CineNova Over Other Platforms?</h3>
             
             <p>
-              Soap2day stands out with its real-time trending algorithm, comprehensive streaming availability data, and user-friendly interface. While other platforms show static ratings or editorial picks, Soap2day dynamically updates based on what's actually being watched right now across all major streaming services. We combine critic scores with audience popularity and social buzz to give you the most accurate picture of what's worth your time.
+              CineNova stands out with its real-time trending algorithm, comprehensive streaming availability data, and user-friendly interface. While other platforms show static ratings or editorial picks, CineNova dynamically updates based on what's actually being watched right now across all major streaming services. We combine critic scores with audience popularity and social buzz to give you the most accurate picture of what's worth your time.
             </p>
 
             <h3 className="text-xl md:text-2xl font-semibold text-blue-300 mb-4">Mobile-Optimized & Social Features</h3>
             
             <p>
-              Our platform is fully optimized for mobile devices, allowing you to discover trending content on the go. Create personalized watchlists, follow specific actors or directors, receive notifications when trending titles become available on your preferred platforms, and share recommendations with friends. Soap2day integrates with social media to show you what your friends are watching and discussing.
+              Our platform is fully optimized for mobile devices, allowing you to discover trending content on the go. Create personalized watchlists, follow specific actors or directors, receive notifications when trending titles become available on your preferred platforms, and share recommendations with friends. CineNova integrates with social media to show you what your friends are watching and discussing.
             </p>
 
             <h3 className="text-xl md:text-2xl font-semibold text-blue-300 mb-4">Start Your Streaming Journey Today</h3>
             
             <p>
-              Join millions of users who trust Soap2day to answer their <strong>"what to watch"</strong> questions. Whether you're searching for <strong>"trending Netflix shows today"</strong>, <strong>"popular movies on Prime Video this week"</strong>, <strong>"new releases on Disney+"</strong>, or <strong>"free streaming movies"</strong>, Soap2day provides accurate, timely information to enhance your entertainment experience. Our platform continuously monitors streaming trends, new releases, and audience preferences to ensure you never miss out on must-watch content.
+              Join millions of users who trust CineNova to answer their <strong>"what to watch"</strong> questions. Whether you're searching for <strong>"trending Netflix shows today"</strong>, <strong>"popular movies on Prime Video this week"</strong>, <strong>"new releases on Disney+"</strong>, or <strong>"free streaming movies"</strong>, CineNova provides accurate, timely information to enhance your entertainment experience. Our platform continuously monitors streaming trends, new releases, and audience preferences to ensure you never miss out on must-watch content.
             </p>
           </div>
         </section>
@@ -489,7 +489,7 @@ export default async function HomePage() {
             </Link>
           </div>
           <p className="mt-8 text-gray-400 max-w-3xl mx-auto text-xs md:text-sm">
-            Soap2day • Trending Movies & TV Shows • Daily Updates • Streaming Availability • Netflix • Disney+ • Prime Video • Hulu • HBO Max • Free Streaming • HD Quality • What to Watch • Best Movies 2024 • Popular TV Series • Entertainment Guide • Movie Recommendations • Binge-Watch Series • New Releases • Top Rated Shows
+            CineNova • Trending Movies & TV Shows • Daily Updates • Streaming Availability • Netflix • Disney+ • Prime Video • Hulu • HBO Max • Free Streaming • HD Quality • What to Watch • Best Movies 2024 • Popular TV Series • Entertainment Guide • Movie Recommendations • Binge-Watch Series • New Releases • Top Rated Shows
           </p>
         </section>
       </div>
@@ -499,20 +499,20 @@ export default async function HomePage() {
 
 // Metadata untuk SEO
 export const metadata = {
-  title: 'Soap2day | Trending Movies & TV Shows to Stream Today - Daily Updates',
+  title: 'CineNova | Trending Movies & TV Shows to Stream Today - Daily Updates',
   description: 'Watch trending movies and TV series for free. Discover what\'s popular today across Netflix, Disney+, Prime Video. Daily updated trending content, movie recommendations, and binge-worthy series.',
   keywords: 'trending movies, trending tv shows, watch online free, daily updates, Netflix trending, Disney+ new releases, streaming guide, movie recommendations, binge-watch series, what to watch, new releases 2024, top rated shows, popular TV series',
   openGraph: {
-    title: 'Soap2day | Trending Movies & TV Shows to Stream Today',
+    title: 'CineNova | Trending Movies & TV Shows to Stream Today',
     description: 'Discover what\'s trending today across all streaming platforms. Daily updated with the hottest movies and TV series available to watch online.',
     url: 'https://cinenovamovie.netlify.app/',
-    siteName: 'Soap2day',
+    siteName: 'CineNova',
     images: [
       {
         url: 'https://live.staticflickr.com/65535/55093668042_fbac069c0b_b.jpg',
         width: 1200,
         height: 630,
-        alt: 'Soap2day - Trending Movies & TV Series to Stream Today',
+        alt: 'CineNova - Trending Movies & TV Series to Stream Today',
       },
     ],
     locale: 'en_US',
@@ -520,10 +520,10 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@Soap2dayMovies',
-    creator: '@Soap2dayMovies',
-    title: 'Soap2day | Trending Movies & TV Shows to Stream Today',
-    description: 'Discover what\'s trending today across all streaming platforms on Soap2day.',
+    site: '@CineNovaMovies',
+    creator: '@CineNovaMovies',
+    title: 'CineNova | Trending Movies & TV Shows to Stream Today',
+    description: 'Discover what\'s trending today across all streaming platforms on CineNova.',
     images: ['https://live.staticflickr.com/65535/55093668042_fbac069c0b_b.jpg'],
   },
   alternates: {
