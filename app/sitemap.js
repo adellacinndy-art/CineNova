@@ -1,8 +1,8 @@
 // app/sitemap.js - VERSI DIPERBAIKI DAN LENGKAP
-const BASE_URL = 'https://soap2day-hd.vercel.app';
+const BASE_URL = 'https://cinenovamovie.netlify.app';
 
 export default async function sitemap() {
-  console.log('🎬 Generating dynamic sitemap for Soap2Day...');
+  console.log('🎬 Generating dynamic sitemap for CineNova...');
   
   try {
     const [staticUrls, dynamicUrls] = await Promise.all([

@@ -158,44 +158,44 @@ export default async function HomePage() {
     "@graph": [
       {
         "@type": "WebSite",
-        "@id": "https://soap2day-hd.vercel.app/#website",
-        "url": "https://soap2day-hd.vercel.app/",
+        "@id": "https://cinenovamovie.netlify.app/#website",
+        "url": "https://cinenovamovie.netlify.app/",
         "name": "Soap2day",
         "description": "Discover trending movies and TV series to stream today across Netflix, Disney+, Prime Video, Hulu, HBO Max and other streaming platforms",
         "potentialAction": [{
           "@type": "SearchAction",
-          "target": "https://soap2day-hd.vercel.app/search?q={search_term_string}",
+          "target": "https://cinenovamovie.netlify.app/search?q={search_term_string}",
           "query-input": "required name=search_term_string"
         }],
         "inLanguage": "en-US"
       },
       {
         "@type": "WebPage",
-        "@id": "https://soap2day-hd.vercel.app/#webpage",
-        "url": "https://soap2day-hd.vercel.app/",
+        "@id": "https://cinenovamovie.netlify.app/#webpage",
+        "url": "https://cinenovamovie.netlify.app/",
         "name": "Soap2day | Trending Movies & TV Shows to Stream Today",
         "description": "Watch trending movies and TV series for free. Discover what's popular today across Netflix, Disney+, Prime Video. Daily updated trending content.",
-        "isPartOf": { "@id": "https://soap2day-hd.vercel.app/#website" },
+        "isPartOf": { "@id": "https://cinenovamovie.netlify.app/#website" },
         "about": "Movie and TV show streaming guide",
         "primaryImageOfPage": {
           "@type": "ImageObject",
-          "url": "https://live.staticflickr.com/65535/54824307228_b68eb0d7d3_b.jpg",
+          "url": "https://live.staticflickr.com/65535/55093668042_fbac069c0b_b.jpg",
           "width": 1200,
           "height": 630
         },
         "datePublished": "2024-01-01",
         "dateModified": new Date().toISOString().split('T')[0],
-        "breadcrumb": { "@id": "https://soap2day-hd.vercel.app/#breadcrumb" }
+        "breadcrumb": { "@id": "https://cinenovamovie.netlify.app/#breadcrumb" }
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://soap2day-hd.vercel.app/#breadcrumb",
+        "@id": "https://cinenovamovie.netlify.app/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://soap2day-hd.vercel.app/"
+            "item": "https://cinenovamovie.netlify.app/"
           }
         ]
       },
@@ -505,11 +505,11 @@ export const metadata = {
   openGraph: {
     title: 'Soap2day | Trending Movies & TV Shows to Stream Today',
     description: 'Discover what\'s trending today across all streaming platforms. Daily updated with the hottest movies and TV series available to watch online.',
-    url: 'https://soap2day-hd.vercel.app/',
+    url: 'https://cinenovamovie.netlify.app/',
     siteName: 'Soap2day',
     images: [
       {
-        url: 'https://live.staticflickr.com/65535/54824307228_b68eb0d7d3_b.jpg',
+        url: 'https://live.staticflickr.com/65535/55093668042_fbac069c0b_b.jpg',
         width: 1200,
         height: 630,
         alt: 'Soap2day - Trending Movies & TV Series to Stream Today',
@@ -524,10 +524,10 @@ export const metadata = {
     creator: '@Soap2dayMovies',
     title: 'Soap2day | Trending Movies & TV Shows to Stream Today',
     description: 'Discover what\'s trending today across all streaming platforms on Soap2day.',
-    images: ['https://live.staticflickr.com/65535/54824307228_b68eb0d7d3_b.jpg'],
+    images: ['https://live.staticflickr.com/65535/55093668042_fbac069c0b_b.jpg'],
   },
   alternates: {
-    canonical: 'https://soap2day-hd.vercel.app/',
+    canonical: 'https://cinenovamovie.netlify.app/',
   },
 };
 

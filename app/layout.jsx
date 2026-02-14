@@ -12,11 +12,11 @@ export const metadata = {
   openGraph: {
     title: 'Watch Movies Online Free | Stream TV Series HD - Soap2Day',
     description: 'Find where to watch movies & TV series online for free or on Netflix, Disney+, Prime Video. Get streaming guides, actor profiles, and genre recommendations.',
-    url: 'https://soap2day-hd.vercel.app',
+    url: 'https://cinenovamovie.netlify.app',
     siteName: 'Soap2Day',
     images: [
       {
-        url: 'https://live.staticflickr.com/65535/54824307228_b68eb0d7d3_b.jpg',
+        url: 'https://live.staticflickr.com/65535/55093668042_fbac069c0b_b.jpg',
         width: 1200,
         height: 630,
         alt: 'Soap2Day - Watch Movies Online Free and Stream TV Series',
@@ -31,7 +31,7 @@ export const metadata = {
     creator: '@WatchStream123',
     title: 'Watch Movies Online Free | Stream TV Series HD - Soap2Day',
     description: 'Find where to watch movies & TV series online for free or on Netflix, Disney+, Prime Video. Streaming guides and recommendations.',
-    images: ['https://live.staticflickr.com/65535/54824307228_b68eb0d7d3_b.jpg'],
+    images: ['https://live.staticflickr.com/65535/55093668042_fbac069c0b_b.jpg'],
   },
   // Tambahkan tag meta eksplisit untuk Facebook
   other: {
@@ -47,9 +47,9 @@ export default async function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta name="google-site-verification" content="C37m6dwO5PsBoKJP86Smpg-kNSI7rGmeTGWH154ZpGQ" />
+        <meta name="google-site-verification" content="Md3DKVreCOimvpFqixtDceSFhTZHk7t9mmiwHPtMtLg" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://soap2day-hd.vercel.app" />
+        <link rel="canonical" href="https://cinenovamovie.netlify.app" />
         
         {/* Structured Data untuk SEO */}
         <script
@@ -59,10 +59,10 @@ export default async function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "Soap2Day",
-              "url": "https://soap2day-hd.vercel.app",
+              "url": "https://cinenovamovie.netlify.app",
               "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://soap2day-hd.vercel.app/search?q={search_term_string}",
+                "target": "https://cinenovamovie.netlify.app/search?q={search_term_string}",
                 "query-input": "required name=search_term_string"
               },
               "description": "Find where to watch movies & TV series online for free or on Netflix, Disney+, Prime Video.",
@@ -77,8 +77,8 @@ export default async function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Soap2Day",
-              "url": "https://soap2day-hd.vercel.app",
-              "logo": "https://live.staticflickr.com/65535/54824307228_b68eb0d7d3_b.jpg",
+              "url": "https://cinenovamovie.netlify.app",
+              "logo": "https://live.staticflickr.com/65535/55093668042_fbac069c0b_b.jpg",
               "description": "Streaming guide and movie database",
               "sameAs": [
                 "https://twitter.com/WatchStream123",
@@ -99,7 +99,7 @@ export default async function RootLayout({ children }) {
               <div className="max-w-7xl mx-auto px-4 flex justify-center">
                 <AdBanner 
                   adId="728x90_header"
-                  scriptKey="d7bd010e8c77374e6883c5d75ab027b4"
+                  scriptKey="87d466cf5c34ca8d5ca6efea6e46f79b"
                   height={90} 
                   width={728}
                   className="rounded-lg overflow-hidden shadow-lg"
@@ -112,7 +112,7 @@ export default async function RootLayout({ children }) {
             </main>
             
             <footer className="w-full max-w-7xl mx-auto px-4 py-8">
-              <div id="container-62a1f1dbfb76aeb4fb99288d9b4f15f9"></div>
+              <div id="container-426098115b9621fb6123b064673edfa8"></div>
               <Footer />
             </footer>
           </div>
